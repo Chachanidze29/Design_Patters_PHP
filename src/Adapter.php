@@ -29,7 +29,7 @@ class CatToDogAdapter extends Dog {
 }
 
 $cat = new Cat();
-echo $cat->meow().PHP_EOL;
+echo $cat->meow() . PHP_EOL;
 
 $catAdapter = new CatToDogAdapter($cat);
-echo $catAdapter->bark().PHP_EOL;
+echo $catAdapter->bark() . PHP_EOL;
