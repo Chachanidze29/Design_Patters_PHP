@@ -30,12 +30,12 @@ class Config {
 
     public function getTitle(): string
     {
-        return self::$INSTANCE->title;
+        return $this->title;
     }
 
     public function getDescription(): string
     {
-        return self::$INSTANCE->description;
+        return $this->description;
     }
  }
 
